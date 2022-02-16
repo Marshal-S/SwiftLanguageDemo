@@ -207,6 +207,7 @@ class BaseLanguageModel: NSObject {
         //数组 Array
         var l = [Any]() //声明空数组
 //        var l: [Any] = [] //等价于上面
+//        var l1: Array<Any> = []
         //创建一个重复初值的数组
         var l1 = Array(repeating: true, count: 10)
         //合并两个数组
